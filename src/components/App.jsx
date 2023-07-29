@@ -5,7 +5,7 @@ import Send from './Send';
 import Username from './Username';
 import Onlineusers from './Onlineusers';
 
-const socket = io.connect('https://chat-app-backend.onrender.com/');
+const socket = io.connect('https://chat-app-backend-upyc.onrender.com');
 
 function App(){
     const [scroll, setScroll] = useState(false);
