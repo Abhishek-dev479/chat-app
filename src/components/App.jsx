@@ -5,7 +5,7 @@ import Send from './Send';
 import Username from './Username';
 import Onlineusers from './Onlineusers';
 
-const socket = io.connect('http://localhost:3001');
+const socket = io.connect('https://chat-app-backend.onrender.com/');
 
 function App(){
     const [scroll, setScroll] = useState(false);
